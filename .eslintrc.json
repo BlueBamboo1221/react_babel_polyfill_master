@@ -1,0 +1,52 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "parser": "babel-eslint",
+  "extends": ["airbnb", "prettier"],
+  "plugins": ["react", "jsx-a11y"],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "impliedStrict": true,
+    "sourceType": "module"
+  },
+  "rules": {
+    "camelcase": 0,
+    "no-debugger": 2,
+    "indent": 0,
+    "no-use-before-define": 0,
+    "comma-dangle": 0,
+    "object-curly-newline": 0,
+    "no-unused-vars": 1,
+    "max-len": 0,
+    "react/prefer-stateless-function": 0,
+    "quotes": [0, "double"],
+    "semi": 0,
+    "no-extra-semi": 2,
+    "no-var": 2,
+    "prefer-arrow-callback": 2,
+    "no-confusing-arrow": 0,
+    "implicit-arrow-linebreak": 0,
+    "no-restricted-syntax": 1,
+    "default-case": 0,
+    "no-nested-ternary": 0,
+    "react/prop-types": 0,
+    "no-case-declarations": 0,
+    "jsx-a11y/no-static-element-interactions": 0,
+    "no-param-reassign": [0, { "props": false }],
+    "react/no-danger": 0,
+    "react/jsx-closing-tag-location": 0,
+    "jsx-a11y/href-no-hash": 0,
+    "jsx-a11y/no-noninteractive-element-interactions": 0,
+    "jsx-a11y/click-events-have-key-events": 0,
+    "jsx-a11y/mouse-events-have-key-events": 0,
+    "arrow-parens": 0,
+    "prefer-template": 0,
+    "import/prefer-default-export": 0,
+    "function-paren-newline": 0,
+    "no-underscore-dangle": 0,
+    "react/jsx-one-expression-per-line": 0
+  }
+}
